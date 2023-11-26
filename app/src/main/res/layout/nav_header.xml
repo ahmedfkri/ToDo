@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/nav_avatar"
+        android:layout_width="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/avatar_vector"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/roundedImage" />
+
+    <TextView
+        android:id="@+id/txtGetStarted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/welcome"
+        android:textColor="@color/myPrimary"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/nav_avatar"
+        app:layout_constraintTop_toTopOf="@id/nav_avatar" />
+
+    <TextView
+        android:id="@+id/txtMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/myPrimary"
+        app:layout_constraintStart_toStartOf="@id/txtGetStarted"
+        app:layout_constraintTop_toBottomOf="@id/txtGetStarted"
+        tools:text="@string/email" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
