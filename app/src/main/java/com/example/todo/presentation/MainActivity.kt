@@ -49,5 +49,7 @@ class MainActivity : AppCompatActivity() {
         navController.navigate(SplashFragmentDirections.actionSplashFragmentToToDoListFragment())
     }
 
+    println("newLine")
+
 
 }
