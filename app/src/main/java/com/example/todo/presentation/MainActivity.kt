@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
         navController.navigate(SplashFragmentDirections.actionSplashFragmentToToDoListFragment())
     }
 
-    private fun whatIsGonnaHapen(){
+    private fun whatIsGonnaHappen(){
 
     }
 
