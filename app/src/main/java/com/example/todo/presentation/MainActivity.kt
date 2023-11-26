@@ -39,7 +39,6 @@ class MainActivity : AppCompatActivity() {
             }, 3000)
         }
 
-
     }
 
     private fun getStarted() {
@@ -48,14 +47,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun showList() {
         navController.navigate(SplashFragmentDirections.actionSplashFragmentToToDoListFragment())
-    }
-
-    private fun whatIsGonnaHappen(){
-
-    }
-
-    private fun feature1(){
-
     }
 
 
