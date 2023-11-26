@@ -1,25 +1,16 @@
 package com.example.todo.presentation
 
-import AuthViewModel
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import android.widget.Toast
-import androidx.activity.viewModels
 import androidx.navigation.NavController
-import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import com.example.todo.R
 import com.example.todo.data.MySharedPref
 import com.example.todo.databinding.ActivityMainBinding
-import com.example.todo.presentation.auth.LogInFragment
-import com.example.todo.presentation.auth.SignUpFragmentDirections
-import com.example.todo.presentation.get_started.GetStartedFragment
-import com.example.todo.presentation.get_started.GetStartedFragmentDirections
-import com.example.todo.presentation.todo_list.ToDoListFragment
-import com.example.todo.presentation.todo_list.ToDoListFragmentDirections
-import com.google.firebase.auth.FirebaseAuth
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -57,6 +48,10 @@ class MainActivity : AppCompatActivity() {
 
     private fun showList() {
         navController.navigate(SplashFragmentDirections.actionSplashFragmentToToDoListFragment())
+    }
+
+    private fun whatIsGonnaHapen(){
+
     }
 
 
