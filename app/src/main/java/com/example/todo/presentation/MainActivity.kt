@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun whatIsGonnaHapen2(){
+    private fun feature1(){
 
     }
 
